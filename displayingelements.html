@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inlineparagraphs {
+            color:blue;
+            display: inline-block;
+            border: 1px solid;
+            width:40%;
+            margin-top:150px;
+            margin-bottom: 300px;
+        }
+        span {
+            display: block;
+            border: 1px solid;
+            width:40%;
+            margin-top:50px;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid;
+            margin-top: 10px;
+            justify-content:space-around;
+        }
+        .flexitems{
+            border:1px solid;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Inline and Block elements</h1>
+    <!-- block elements start on new line and take the full width while elements do not start on a new line and do not take the full width -->
+    <p class="inlineparagraphs">first paragraph</p>
+    <p class="inlineparagraphs">second paragraph</p>
+    <span>first span</span>
+    <span>second span</span>
+    <div id="container">
+        <p class="flexitems">paragraph 1</p>
+        <p class="flexitems"> paragraph 1</p>
+        <p class="flexitems">paragraph 1</p>
+        <p class="flexitems">paragraph 1</p>
+        <p class="flexitems">paragraph 1</p>
+        <p class="flexitems">paragraph 1</p>
+        <p class="flexitems">paragraph 1</p>
+    </div>
+</body>
+</html>
